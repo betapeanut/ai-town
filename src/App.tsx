@@ -72,7 +72,7 @@ export default function Home() {
 
       <div className="w-full min-h-screen relative isolate overflow-hidden shadow-2xl flex flex-col justify-start h-screen overflow-auto">
         <Game />
-        <footer className="justify-end bottom-0 left-0 w-full flex items-center mt-4 gap-3 p-6 flex-wrap pointer-events-none">
+        <footer className="absolute bottom-0 left-0 w-full flex items-center mt-4 gap-3 p-6 flex-wrap pointer-events-none">
           <div className="flex gap-4 flex-grow pointer-events-none">
             <FreezeButton />
             <MusicButton />
